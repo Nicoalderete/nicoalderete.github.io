@@ -1,3 +1,2 @@
-# nicoalderete.github.io
 
 # Projects 
