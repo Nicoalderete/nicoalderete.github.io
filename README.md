@@ -56,5 +56,5 @@ Este análisis nos permite extraer varias conclusiones clave:
 Este estudio no solo nos ayuda a comprender la distribución actual del tráfico aéreo, sino que también puede ser utilizado para prever tendencias futuras en la industria de la aviación.
 
 ---
-[Aquí](https://github.com/Nicoalderete/Top100-Airports-Analysis) para ver el proyecto completo. 
+Pulasr [aquí](https://github.com/Nicoalderete/Top100-Airports-Analysis) para ver el proyecto completo. 
 
