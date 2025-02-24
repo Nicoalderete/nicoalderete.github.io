@@ -41,7 +41,7 @@ Para cerrar nuestro análisis, utilizamos un mapa de calor interactivo que nos m
 ![Mapa_calor.png](/assets/img/Mapa_calor.png)
 
 
-## 📌 Conclusiones y Reflexión Final
+## Conclusiones y Reflexión Final
 
 Este análisis nos permite extraer varias conclusiones clave:
 
