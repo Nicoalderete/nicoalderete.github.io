@@ -15,30 +15,30 @@ Comenzamos identificando los aeropuertos con mayor afluencia de pasajeros. Un gr
 
 ✅ Dubai se consolida como el centro estratégico del tráfico entre Europa, Asia y África.
 
-![Top10_Aeropuertos](/assets/imgs/Top10_Aeropuertos.png)
+![Top10_Aeropuertos](/assets/img/Top10_Aeropuertos.png)
 
 
 Luego, algo interesante que podemos notar es la clara desigualdad entre la mayoría de los aeropuertos(quienes manejan un tráfico considerablemente menor) con los gigantes del sector. Mientras los 10 aeropuertos más transitados concentran gran parte del flujo aéreo, existe un largo tail de aeropuertos con tráfico significativamente menor.
 
-![Distribucion_pasajeros.png](/assetsimgs/Distribucion_pasajeros.png)
+![Distribucion_pasajeros.png](/assets/img/Distribucion_pasajeros.png)
 
 
 De estos gigante del sector, encontramos que es Estados Unidos quién lidera el tráfico mundial, con más de 10 aeropuertos en el top 100 y un volumen de pasajeros que duplica al del segundo país en la lista.
 
-![Top10_paises_trafico.png](/assets/imgs/Top10_paises_trafico.png)
+![Top10_paises_trafico.png](/assets/img/Top10_paises_trafico.png)
 
 
 Descubrimos además, que factores como la ubicación geográfica y la categoría del aeropuerto pueden influir en su volumen de tráfico.
 
-![Correlaciones.png](/assets/imgs/Correlaciones.png)
+![Correlaciones.png](/assets/img/Correlaciones.png)
 
 Para profundizar, aplicamos un clustering con K-Means, agrupando aeropuertos según similitudes en su tráfico y ubicación.
 
-![Clustering.png](/assets/imgs/Clustering.png)
+![Clustering.png](/assets/img/Clustering.png)
 
 Para cerrar nuestro análisis, utilizamos un mapa de calor interactivo que nos muestra la concentración de tráfico aéreo en el mundo. Como era de esperar, vemos un fuerte resplandor en América del Norte, Europa y Asia, mientras que regiones como África y América del Sur tienen una menor densidad de tráfico.
 
-![Mapa_calor.png](/assets/imgs/Mapa_calor.png)
+![Mapa_calor.png](/assets/img/Mapa_calor.png)
 
 
 ## 📌 Conclusiones y Reflexión Final
