@@ -1,5 +1,6 @@
 # Proyectos 
 
+# 1.
 ## El Pulso del Tráfico Aéreo Global
 
 En un mundo cada vez más conectado, los aeropuertos no solo son infraestructuras de tránsito, sino auténticos nodos del comercio, el turismo y la economía global. Sin embargo, ¿cuáles son los aeropuertos que dominan el tráfico aéreo? ¿Cómo se distribuyen los pasajeros en distintas regiones del mundo? Y lo más importante, ¿qué patrones subyacentes revelan estos datos?
