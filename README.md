@@ -35,7 +35,7 @@ Estados Unidos y China encabezan la lista, manejando juntos casi un tercio del t
 
 Dentro de estos países líderes, el tráfico aéreo no está distribuido uniformemente. Al contrario, unos pocos aeropuertos concentran la mayor parte del tráfico, actuando como hubs neurálgicos.
 
-![Distribucion_Trafico_Paises](/assets/img/Distribucion_Trafico_Paises.png)
+![Distribucion_Trafico_Principales_Paises](/assets/img/Distribucion_Trafico_Principales_Paises.png)
 
 Este gráfico muestra cómo se reparte el tráfico dentro de los países más relevantes, revelando la centralización en ciertos hubs clave.
 
