@@ -6,6 +6,7 @@
 <br>
 <img src="assets/img/project_thumbnail.png?raw=true"/>
 <br>
+
 ###### Python | Pandas | Matplotlib | Seaborn | Scikit-learn | Folium | Jupyter
 
 ---
@@ -14,6 +15,7 @@
 <br>
 <img src="assets/img/project2_thumbnail.png?raw=true"/>
 <br>
+
 ###### Excel | Power BI | DAX | Data Cleaning | Data Visualization
 
 
