@@ -1,12 +1,16 @@
 title: Nicolas Alderete
 logo: /assets/img/profile_photo3.png
-description:
-Data Analyst focused on business intelligence, data visualization, and process optimization.
-I build dashboards, reports, and analytical workflows that transform operational data into clear insights for decision-making. My work combines Excel, SQL, Power BI, Tableau, Python, and Looker Studio, with a strong interest in automation and scalable reporting solutions.
-Explore my projects to see how I use data to analyze business performance, identify opportunities, and support better decisions.
+
+description: |
+  Data Analyst focused on business intelligence, data visualization, and process optimization.
+
+  I build dashboards, reports, and analytical workflows that transform operational data into clear insights for decision-making. My work combines Excel, SQL, Power BI, Tableau, Python, and Looker Studio, with a strong interest in automation and scalable reporting solutions.
+
+  Explore my projects to see how I use data to analyze business performance, identify opportunities, and support better decisions.
+
   <br><br>
-  <a href= "https://www.linkedin.com/in/nicolas-alderete/" > View My LindedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/nicolas-alderete/">View My LinkedIn Profile</a>
 
 # show_downloads: true
 theme: jekyll-theme-minimal
-google analytics: G-QCX3G9KSPC
+google_analytics: G-QZX3G9KSPC
