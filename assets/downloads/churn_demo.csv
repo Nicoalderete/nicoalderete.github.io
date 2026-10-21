@@ -1,0 +1,13 @@
+id,reason,tenure_days,data_origin
+S01,personal,30,fictional_portfolio_demo
+S02,personal,60,fictional_portfolio_demo
+S03,personal,120,fictional_portfolio_demo
+S04,personal,240,fictional_portfolio_demo
+S05,income,20,fictional_portfolio_demo
+S06,income,45,fictional_portfolio_demo
+S07,income,75,fictional_portfolio_demo
+S08,income,180,fictional_portfolio_demo
+S09,company,15,fictional_portfolio_demo
+S10,company,90,fictional_portfolio_demo
+S11,company,150,fictional_portfolio_demo
+S12,company,300,fictional_portfolio_demo
