@@ -2,7 +2,7 @@
 
 Portfolio personal: [nicoalderete.github.io](https://nicoalderete.github.io/)
 
-Trabajo en la intersección entre supervisión operativa, Business Intelligence, reporting ejecutivo, automatización y herramientas internas. El portfolio prioriza casos profesionales con contexto, metodología y alcance explícito, además de proyectos técnicos de formación.
+Trabajo en la intersección entre supervisión operativa, Business Intelligence, reporting ejecutivo, automatización y herramientas internas. El portfolio presenta casos profesionales con contexto, metodología y alcance explícito.
 
 ## Casos profesionales
 
@@ -15,12 +15,6 @@ Trabajo en la intersección entre supervisión operativa, Business Intelligence,
 Cada análisis desarrolla la pregunta de negocio, la intervención, decisiones metodológicas, definiciones de indicadores y entregables. Los ejemplos numéricos son ficticios y están identificados como tales. El caso de bajas conserva su URL original.
 
 Los casos anteriores de [Fleet Operations Center](https://nicoalderete.github.io/casos/fleet-ops-center.html), [sistema de gestión y seguimiento](https://nicoalderete.github.io/casos/sistema-gestion.html) y [revisiones](https://nicoalderete.github.io/casos/automatizacion-revisiones.html) se conservan como recorridos relacionados.
-
-## Proyectos técnicos
-
-- [Top 100 Airports](https://nicoalderete.github.io/casos/aeropuertos.html) — Pipeline reproducible con Python, SQLite y SQL.
-- [Sales Analysis · Power BI](https://nicoalderete.github.io/casos/powerbi.html) — Visualización y análisis comercial.
-- [Sales Analysis · Tableau](https://nicoalderete.github.io/casos/tableau.html) — Dashboard de análisis comercial.
 
 ## Privacidad y precisión
 
