@@ -10,7 +10,9 @@ Trabajo en la intersección entre supervisión operativa, Business Intelligence,
 2. [Control de Flota e históricos](https://nicoalderete.github.io/casos/control-flota-datos.html) — Integración de fuentes, calidad de datos y memoria operativa.
 3. [Procesos entre equipos](https://nicoalderete.github.io/casos/procesos-entre-equipos.html) — Relevamiento, reglas y automatización aplicados a distintos circuitos.
 4. [Reporting ejecutivo semanal](https://nicoalderete.github.io/casos/reporting-ejecutivo.html) — Indicadores, contextos y prioridades para la dirección.
-5. [Análisis de bajas y permanencia](https://nicoalderete.github.io/casos/analitica-bajas.html) — Calidad de datos, segmentación y lectura de causas.
+5. [Business Intelligence & Analytics](https://nicoalderete.github.io/casos/business-intelligence.html) — Colección de cuatro casos profesionales: desempeño de operaciones, continuidad del cliente, bajas y permanencia, y analítica de atención.
+
+Cada análisis desarrolla la pregunta de negocio, la intervención, decisiones metodológicas, definiciones de indicadores y entregables. Los ejemplos numéricos son ficticios y están identificados como tales. El caso de bajas conserva su URL original.
 
 Los casos anteriores de [Fleet Operations Center](https://nicoalderete.github.io/casos/fleet-ops-center.html), [sistema de gestión y seguimiento](https://nicoalderete.github.io/casos/sistema-gestion.html) y [revisiones](https://nicoalderete.github.io/casos/automatizacion-revisiones.html) se conservan como recorridos relacionados.
 
