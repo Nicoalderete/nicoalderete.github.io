@@ -7,3 +7,7 @@
 
 /* Entry to the BI case collection. */
 .bi-cover{height:190px;border:1px solid #344b4f;border-radius:6px;padding:14px;background:#152023;color:#dce9e7}.bi-cover-title{font-size:10px;display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;gap:8px}.bi-cover-title>span{font-size:8px;color:var(--accent);white-space:nowrap}.bi-cover-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px}.bi-cover-grid>div{border:1px solid #344b4f;border-radius:5px;padding:8px;min-width:0}.bi-cover-grid b{font-size:8px;font-weight:400;color:var(--accent);display:block}.bi-cover-grid span{font-size:10px;display:block}.bi-cover-grid small{font-size:7px;color:#b2bfc0;display:block;line-height:1.5}@media(min-width:901px) and (max-width:1100px){.bi-cover{height:175px;padding:10px}.bi-cover-grid>div{padding:6px}.bi-cover-grid small{font-size:6px}}
+
+/* Content refinement, retaining the original graphite/mint layout. */
+.hero h1 span{color:var(--accent)}
+.mini-modules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin-top:18px}.mini-modules span{font-size:7px;line-height:1.4;border:1px solid #3e5b5e;border-radius:4px;padding:9px 4px;color:#c7d8d7;text-align:center}.mini-modules span:nth-child(2n){border-color:#5b8e89;background:#213a3b}
