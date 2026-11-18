@@ -1,0 +1,97 @@
+/* Capa de terminación: tipografía, encabezado común, jerarquía de color y tamaños. Se carga última en todas las páginas. */
+@font-face{font-family:"IBM Plex Sans";src:url(../fonts/ibm-plex-sans-latin-400-normal.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"IBM Plex Sans";src:url(../fonts/ibm-plex-sans-latin-500-normal.woff2) format("woff2");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"IBM Plex Sans";src:url(../fonts/ibm-plex-sans-latin-600-normal.woff2) format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"IBM Plex Sans";src:url(../fonts/ibm-plex-sans-latin-700-normal.woff2) format("woff2");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"IBM Plex Mono";src:url(../fonts/ibm-plex-mono-latin-400-normal.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+:root{--max:1240px;--sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;--quiet:#4e686c}
+html{scroll-padding-top:100px}
+body{font-family:var(--sans);line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+button{font-family:inherit}
+h1,h2,h3{font-weight:600}
+h2{letter-spacing:-.018em}
+h3{letter-spacing:-.01em}
+.wrap{max-width:var(--max);padding-inline:40px}
+
+/* Encabezado: el mismo en portada y casos */
+header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+header .main-nav{min-height:90px;display:flex;justify-content:space-between;align-items:center;gap:24px}
+.identity{display:flex;align-items:baseline;gap:24px;font-weight:700;font-size:23px;letter-spacing:-.02em;max-width:none;flex-shrink:0}
+.identity span{display:inline;font-size:15px;font-weight:400;letter-spacing:0;color:var(--accent);margin:0;padding:0 0 0 24px;border:0;border-left:1px solid var(--line)}
+.navlinks{display:flex;gap:32px;font-size:14px;color:var(--text);max-width:none}
+.navlinks a:hover{color:var(--accent)}
+
+/* Rótulos: sin mayúsculas ni acento; el acento queda para enlaces y cifras */
+.eyebrow,.project-type,.panel .kicker,.map-label,.case-meta dt,.process-example summary span,.architecture small,.bi-project-top .eyebrow{font-family:var(--sans);font-size:13px;line-height:1.5;font-weight:500;letter-spacing:.01em;text-transform:none;color:var(--muted)}
+thead th{font-size:13px;text-transform:none;letter-spacing:0;color:var(--muted)}
+.capability .num,.steps li:before,.flow li .number,.case-number,.method-grid article>span{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.technology strong{color:var(--text)}
+.results li:before{color:var(--muted)}
+.disclaimer,.status,.learning{border-left-color:var(--quiet)}
+.tools-grid svg{stroke:var(--muted)}
+.flow li:not(:last-child):after{color:var(--muted)}
+.process-example summary:after{color:var(--muted)}
+
+/* Tamaños mínimos legibles */
+.tag,.bi-project .tag{font-family:var(--sans);font-size:12px;letter-spacing:0;padding:4px 10px}
+.project-visual figcaption{font-size:11px}
+.filters button{font-size:13px}
+.section-head p{font-size:15px}
+.caption,.public-note,.bi-note,.disclaimer,caption,footer,.portrait small,.hero-bottom>span{font-size:13px}
+.case-meta dd,.steps p,.method-grid p,.case-summary,.capability p,.example-body dd,.architecture span,.technology{font-size:15px}
+.jump-nav,.bi-toc,.case-nav a,.related a,.inline-link,.breadcrumb{font-size:14px}
+.analysis-map>div>span{font-size:12px}
+
+/* Portada: se conserva la composición original */
+.hero h1{font-weight:700}
+.hero .eyebrow{font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent)}
+.portrait img{width:84px;height:84px}
+.work h2,.about h2,.contact h2{font-size:clamp(28px,3vw,36px)}
+.project h3{min-height:0;font-size:22px;margin:0 0 10px}
+.project-type{margin-bottom:8px}
+.project-description{font-size:15px;line-height:1.6}
+
+/* Fichas de casos: títulos más contenidos y menos aire */
+.case-hero{padding:56px 0 44px}
+.case-hero h1,.bi-hero h1{font-size:clamp(34px,4.2vw,54px);line-height:1.1;letter-spacing:-.025em;font-weight:700;margin:14px 0 18px}
+.lead{font-size:clamp(17px,1.5vw,19px);line-height:1.6;max-width:70ch}
+.section{padding:56px 0}
+.section h2{font-size:clamp(24px,2.6vw,32px)}
+.bi-section h2{font-size:clamp(24px,2.8vw,34px)}
+.panel{padding:30px}
+.panel h2{font-size:24px;line-height:1.25}
+.decision h2{font-size:clamp(26px,3vw,36px)}
+.decision p{font-size:17px}
+
+/* Resumen de tres líneas al inicio de cada caso */
+.brief{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:0;border-bottom:1px solid var(--line)}
+.brief>div{padding:26px 28px 28px 0}
+.brief>div+div{padding-left:28px;border-left:1px solid var(--line)}
+.brief dt{font-size:13px;font-weight:500;color:var(--muted);margin-bottom:8px}
+.brief dd{margin:0;font-size:15.5px;line-height:1.55;color:var(--text)}
+
+@media(max-width:760px){
+ .wrap{padding-inline:22px}
+ .brief{grid-template-columns:1fr}
+ .brief>div{padding:18px 0}
+ .brief>div+div{padding-left:0;border-left:0;border-top:1px solid var(--line)}
+ .case-hero{padding:40px 0 32px}
+ .section{padding:42px 0}
+}
+@media(max-width:600px){
+ header .main-nav{min-height:72px;gap:14px}
+ .identity{flex-direction:column;gap:1px;font-size:17px}
+ .identity span{font-size:12px;padding:0;border:0}
+ .navlinks{flex-wrap:wrap;justify-content:flex-end;gap:4px 14px;font-size:13px}
+ .hero .eyebrow{font-size:10px;letter-spacing:1.3px}
+ .project h3{font-size:22px}
+}
+
+/* Con siete proyectos, el último ocupa el ancho completo en vez de quedar suelto */
+@media(min-width:901px){
+ .projects>.project:last-child:nth-child(3n+1){grid-column:1/-1;flex-direction:row;align-items:stretch}
+ .projects>.project:last-child:nth-child(3n+1) .project-visual{flex:0 0 32%;padding:17px}
+ .projects>.project:last-child:nth-child(3n+1) .project-body{padding:26px 30px;justify-content:center}
+ .projects>.project:last-child:nth-child(3n+1) .project-description{max-width:60ch}
+ .projects>.project:last-child:nth-child(3n+1) .tags{margin-top:0}
+}
