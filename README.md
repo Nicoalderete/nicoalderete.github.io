@@ -1,4 +1,4 @@
-# Nicolás Alderete — Data & Operations
+# Nicolás Alderete — Data & Automation
 
 Portfolio personal: [nicoalderete.github.io](https://nicoalderete.github.io/)
 
