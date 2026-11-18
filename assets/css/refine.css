@@ -46,6 +46,19 @@ thead th{font-size:13px;text-transform:none;letter-spacing:0;color:var(--muted)}
 .hero h1{font-weight:700}
 .hero .eyebrow{font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent)}
 .portrait img{width:84px;height:84px}
+/* Diagrama de la portada: un pulso que recorre las líneas */
+.hero-diagram{max-width:380px;height:auto;overflow:visible}
+.hd-flow{stroke:#dff8f4;stroke-width:2.4;stroke-linecap:round;stroke-dasharray:6 194;stroke-dashoffset:6;animation:5s linear infinite}
+.hd-in{animation-name:hd-in}
+.hd-out{animation-name:hd-out}
+.hd-d1{animation-delay:.45s}
+.hd-d2{animation-delay:.9s}
+@keyframes hd-in{0%{stroke-dashoffset:6}40%,100%{stroke-dashoffset:-100}}
+@keyframes hd-out{0%,44%{stroke-dashoffset:6}84%,100%{stroke-dashoffset:-100}}
+@media(prefers-reduced-motion:reduce){.hd-flow{animation:none}}
+/* La portada ocupa casi toda la primera pantalla y se separa de los proyectos */
+.hero{min-height:calc(100vh - 91px);min-height:calc(100svh - 91px);border-bottom:1px solid var(--line)}
+.work{padding-top:64px}
 .work h2,.about h2,.contact h2{font-size:clamp(28px,3vw,36px)}
 .project h3{min-height:0;font-size:22px;margin:0 0 10px}
 .project-type{margin-bottom:8px}
@@ -84,6 +97,9 @@ thead th{font-size:13px;text-transform:none;letter-spacing:0;color:var(--muted)}
  .identity span{font-size:12px;padding:0;border:0}
  .navlinks{flex-wrap:wrap;justify-content:flex-end;gap:4px 14px;font-size:13px}
  .hero .eyebrow{font-size:10px;letter-spacing:1.3px}
+ .hero-diagram{max-width:260px;height:auto;justify-self:start}
+ .hero{min-height:calc(100vh - 73px);min-height:calc(100svh - 73px);align-content:center}
+ .work{padding-top:44px}
  .project h3{font-size:22px}
 }
 
